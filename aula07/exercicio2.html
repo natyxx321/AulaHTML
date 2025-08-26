@@ -7,8 +7,8 @@
     <style>
         body
         {
-           margin: 0;
-           padding: 0; 
+           margin: 20px;
+           padding: 20px; 
         }
         h1
         {
@@ -22,15 +22,56 @@
         {
             border: 1px solid black;
         }
-        tr, td, table
+        tr, td, th, table
         {
             border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
         }
 
+        th
+        {
+            background-color: green;
+        }
+        ul
+        {
+            border: 2px solid gray;
+        }
+        .link
+        {
+            background-color: blueviolet;
+            color: black;
+            margin: 10px;
+            padding: 10px;
+        }
+        .caixa
+        {
+            background-color: darkmagenta;
+            color: white;
+            text-align: center;
+
+            font-size: 15px;
+            font-weight: bold;
+            padding: 30px;
+        }
+        .titulo
+        {
+            font-size: 30px;
+            font-weight: bold;
+            padding: 30px;
+        }
+        
     </style>
 </head>
 <body>
-    <h1>página de exercícios de CSS</h1>
+    
+    <span class="titulo">pagina de exercicios CSS </span>
+    <br>
+    <a href="#">inicio</a>
+    <a href="#">sobre</a>
+    <a href="#">contato</a>
+    </p>
+
     <h3>1. parágrafos e cores</h3>
 
    <p>
@@ -42,25 +83,25 @@
    </p>
 
    <h3>2. botões e interações</h3>
-   <p>
+
    <a href="#" class="link">clique aqui</a>
-   </p>
+
    <h3>3. lista de itens</h3>
    
-   <p>
+   
    <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>javascript</li>
    </ul>
-   </p>
+
 
    <h3>4. tabela de estilo</h3>
    <table>
     <tr>
-        <td>nome</td>
-        <td>idade</td>
-        <td>cidade</td>
+        <th>nome</th>
+        <th>idade</th>
+        <th>cidade</th>
     </tr>
     <tr>
         <td>joao</td>
